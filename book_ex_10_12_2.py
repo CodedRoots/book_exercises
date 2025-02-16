@@ -1,4 +1,4 @@
-# Write a program to read through the mbox-short.txt and figure 
+# A program to read through a text file and figure 
 # out the distribution by hour of the day for each of the messages.
 
 fname = input("Enter file:")
@@ -7,7 +7,6 @@ if len(fname) < 1:
 fhand = open(fname)
 
 counts = dict()
-
 
 for i in fhand:
     i = i.rstrip()
