@@ -1,4 +1,3 @@
-#cannot be run as is in python as document is not referred. 
 #Find all unique words in a file
 
 fname = input('Enter the file name:')
